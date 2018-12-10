@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Paradise",
+        "rating": 4.2,
+        "location": "Hyderabad",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/paradise.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"20",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 1,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "./assets/images/paradiseChkBry.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 1,
+                "name": "Tandoori Roti",
+                "description": "Roti",
+                "price": 40,
+                "imageUrl": "./assets/images/roti.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 3,
+                "id": 1,
+                "name": "Tandoori Roti",
+                "description": "curry",
+                "price": 190,
+                "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tabla",
+        "rating": 4.1,
+        "location": "Hyderabad",
+        "approxPrice": 350,
+        "imageUrl": "./assets/images/tabla.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 2,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Sitara",
+        "rating": 4.2,
+        "location": "Bangalore",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/sitara.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 3,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {   "id": 4,
+        "name": "Biryanis-and-more",
+        "rating": 4.2,
+        "location": "Bangalore",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/biryanisAndMore.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 4,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Swagath",
+        "rating": 4.2,
+        "location": "Mumbai",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/swagath.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 5,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Sagar",
+        "rating": 3.9,
+        "location": "Bangalore",
+        "approxPrice": 250,
+        "imageUrl": "./assets/images/swagath.jpg",
+        "isVegRest": true,
+        "isOffersAvl": true,
+        "deliveryTime":"20",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 6,
+                "name": "Roti's",
+                "description": "Veg",
+                "price": 150,
+                "imageUrl": "",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Navabharat",
+        "rating": 3.9,
+        "location": "Mumbai",
+        "approxPrice": 250,
+        "imageUrl": "./assets/images/swagath.jpg",
+        "isVegRest": true,
+        "isOffersAvl": true,
+        "deliveryTime":"30",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 7,
+                "name": "Roti's",
+                "description": "Veg",
+                "price": 150,
+                "imageUrl": "",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+<div class='navbar navbar-expand navbar-light bg-light'>
+    <span class='navbar-brand'>
+        <input type="checkbox" [(ngModel)]="filters.fastDelivery" (ngModelChange)="onFilterSelect()"/>
+        <label>Fast Delivery</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" [(ngModel)]="filters.vegetarian" (ngModelChange)="onFilterSelect()"/>
+        <label>Vegetarian Options</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" [(ngModel)]="filters.offers" (ngModelChange)="onFilterSelect()"/>
+        <label>Offers</label>
+    </span>
+</div>
+<div>
+    <div>
+        <!-- <div class='row'>
+          <div class='col-md-2'>Filter by:</div>
+          <div class='col-md-4'>
+              <input type='text' [(ngModel)]='listFilter'/>
+          </div>
+      </div>
+      <div class='row'>
+          <div class='col-md-6'>
+              <h4>Filtered by: {{listFilter}}</h4>
+          </div>
+      </div> -->
+        <div class='table-responsive'>
+            <table class='table' *ngIf='restaurants && restaurants.length'>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Delivery time</th>
+                        <th>Price</th>
+                        <th>Rating</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let restaurant of restaurants">
+                        <td><a [routerLink]="['/items',restaurant.name,restaurant.location]">{{restaurant.name}}</a></td>
+                        <td>{{restaurant.deliveryTime}}</td>
+                        <td>{{restaurant.approxPrice}}</td>
+                        <td>{{restaurant.rating}}</td>
+                        <td>
+                            <img [src]='restaurant.imageUrl' [title]='restaurant.name | uppercase' [style.width.px]='imageWidth'
+                                [style.margin.px]='imageMargin'>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class='table' *ngIf='!(restaurants && restaurants.length)'>No restaurants at this location</table>
+        </div>
+    </div>
+    <div>
+        <button class='btn btn-outline-secondary' (click)='onBack()' style='width:80px'>
+            <i class='fa fa-chevron-left'></i> Back
+        </button>
+    </div>
+</div>
