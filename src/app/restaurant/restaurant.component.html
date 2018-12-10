@@ -1,56 +1,51 @@
-<div class='navbar navbar-expand navbar-light bg-light'>
-    <span class='navbar-brand'>
-        <input type="checkbox" [(ngModel)]="filters.fastDelivery" (ngModelChange)="onFilterSelect()"/>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Food Delivery</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav><br/><br/><br/>
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading -->
+    <!-- <h1 class="my-4">Page Heading
+            <small>Secondary Text</small>
+          </h1> -->
+
+        <input type="checkbox" [(ngModel)]="filters.fastDelivery" (ngModelChange)="onFilterSelect()" />
         <label>Fast Delivery</label>&nbsp;&nbsp;&nbsp;
-        <input type="checkbox" [(ngModel)]="filters.vegetarian" (ngModelChange)="onFilterSelect()"/>
+        <input type="checkbox" [(ngModel)]="filters.vegetarian" (ngModelChange)="onFilterSelect()" />
         <label>Vegetarian Options</label>&nbsp;&nbsp;&nbsp;
-        <input type="checkbox" [(ngModel)]="filters.offers" (ngModelChange)="onFilterSelect()"/>
+        <input type="checkbox" [(ngModel)]="filters.offers" (ngModelChange)="onFilterSelect()" />
         <label>Offers</label>
-    </span>
-</div>
-<div>
-    <div>
-        <!-- <div class='row'>
-          <div class='col-md-2'>Filter by:</div>
-          <div class='col-md-4'>
-              <input type='text' [(ngModel)]='listFilter'/>
-          </div>
-      </div>
-      <div class='row'>
-          <div class='col-md-6'>
-              <h4>Filtered by: {{listFilter}}</h4>
-          </div>
-      </div> -->
-        <div class='table-responsive'>
-            <table class='table' *ngIf='restaurants && restaurants.length'>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Delivery time</th>
-                        <th>Price</th>
-                        <th>Rating</th>
-                        <th>Image</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr *ngFor="let restaurant of restaurants">
-                        <td><a [routerLink]="['/items',restaurant.name,restaurant.location]">{{restaurant.name}}</a></td>
-                        <td>{{restaurant.deliveryTime}}</td>
-                        <td>{{restaurant.approxPrice}}</td>
-                        <td>{{restaurant.rating}}</td>
-                        <td>
-                            <img [src]='restaurant.imageUrl' [title]='restaurant.name | uppercase' [style.width.px]='imageWidth'
-                                [style.margin.px]='imageMargin'>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class='table' *ngIf='!(restaurants && restaurants.length)'>No restaurants at this location</table>
+
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item" *ngFor="let restaurant of restaurants">
+            <div class="card h-100">
+                <a [routerLink]="['/items',restaurant.name,restaurant.location]"><img class="card-img-top" [src]='restaurant.imageUrl'
+                        [title]='restaurant.name | uppercase' width='500' height='200'></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a [routerLink]="['/items',restaurant.name,restaurant.location]">{{restaurant.name}}</a>
+                    </h4>
+                    <p>
+                        <span class="wY0my _9uwBC icon-start _537e4">* {{restaurant.rating}}</span>&nbsp;&nbsp;
+                        <span>{{restaurant.deliveryTime}}</span>&nbsp;&nbsp;
+                        <span>{{restaurant.approxPrice | currency: 'INR': 'symbol': '1.0'}}</span>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <div>
-        <button class='btn btn-outline-secondary' (click)='onBack()' style='width:80px'>
-            <i class='fa fa-chevron-left'></i> Back
-        </button>
-    </div>
+    <!-- /.row -->
 </div>
+<div>
+        <div>
+            <button class='btn btn-outline-secondary' (click)='onBack()' style='width:80px'>
+                <i class='fa fa-chevron-left'></i> Back
+            </button>
+        </div>
+    </div>
