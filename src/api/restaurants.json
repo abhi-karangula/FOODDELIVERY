@@ -608,7 +608,7 @@
         "name": "Tabla",
         "rating": 4.1,
         "location": "Mumbai",
-		"description": "Biryani, Indian, Chinese, North Indian",
+		"description": "Biryani, Indian, North Indian",
         "approxPrice": 350,
         "imageUrl": "./assets/images/tabla.jpg",
         "isVegRest": false,
