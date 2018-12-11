@@ -60,7 +60,7 @@ export class ItemDetailsComponent implements OnInit {
     if (this.cartItems.length > 0) {
       this.cartItems = [];
       alert('Your Order is placed successfully');
-      this.router.navigate(['/home']);
+      this.router.navigate(['/restaurant', this.route.snapshot.paramMap.get('location')]);
     } else {
       alert('No items in your cart');
     }
