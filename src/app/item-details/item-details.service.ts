@@ -14,7 +14,7 @@ export class ItemDetailsService {
 
   getRestaurantItems(name: string, location: string): Observable<IRestaurant[]> {
     return this.restaurantService.getRestaurants().pipe(
-      map((restaurants: IRestaurant[]) => restaurants.find((r) => r.location.indexOf(location) != -1) && restaurants.filter((r) => r.name.indexOf(name) != -1))
+      map((restaurants: IRestaurant[]) => restaurants.filter((r) => r.location.indexOf(location) != -1 && r.name.indexOf(name) != -1))
     );
   }
 
