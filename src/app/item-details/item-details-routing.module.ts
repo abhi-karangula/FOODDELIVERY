@@ -1,3 +1,7 @@
+/**
+ * @author: Avinash Karangula
+ */
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ItemDetailsComponent } from './item-details.component';

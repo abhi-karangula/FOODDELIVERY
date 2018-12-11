@@ -1,3 +1,7 @@
+/**
+ * author: Pandu Ranga Rao
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { RestaurantService } from './restaurant.service';
 import { ActivatedRoute, Router } from '@angular/router';

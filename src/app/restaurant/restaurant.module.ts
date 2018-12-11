@@ -1,3 +1,7 @@
+/**
+ * author: Pandu Ranga Rao
+ */
+
 import { NgModule } from '@angular/core';
 
 import { RestaurantRoutingModule } from './restaurant-routing.module';
