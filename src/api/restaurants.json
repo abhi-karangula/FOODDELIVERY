@@ -33,10 +33,60 @@
             {
                 "itemId": 3,
                 "id": 1,
-                "name": "Tandoori Roti",
+                "name": "curry",
                 "description": "curry",
                 "price": 190,
                 "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 4,
+                "id": 1,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 270,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 5,
+                "id": 1,
+                "name": "Prawn Biryani",
+                "description": "Prawn Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Prawn Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 6,
+                "id": 1,
+                "name": "Tandoori Chicken",
+                "description": "Tandoori Chicken",
+                "price": 279,
+                "imageUrl": "./assets/images/Tandoori Chicken.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 7,
+                "id": 1,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 279,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 8,
+                "id": 1,
+                "name": "Veg Biryani",
+                "description": "Veg Biryani",
+                "price": 279,
+                "imageUrl": "./assets/images/Veg Biryani.jpg",
                 "bestSeller": true,
                 "type": "Veg"
             }
@@ -57,9 +107,39 @@
                 "itemId": 1,
                 "id": 2,
                 "name": "Chicken Biryani",
-                "description": "Biryani",
-                "price": 275,
-                "imageUrl": "",
+                "description": "Chicken Biryani",
+                "price": 250,
+                "imageUrl": "./assets/images/T Chicken Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 2,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 3,
+                "id": 2,
+                "name": "Veg Meals",
+                "description": "Veg Meals",
+                "price": 150,
+                "imageUrl": "./assets/images/Veg Meals.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 4,
+                "id": 2,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 200,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
                 "bestSeller": true,
                 "type": "NV"
             }
@@ -69,7 +149,7 @@
         "id": 3,
         "name": "Sitara",
         "rating": 4.2,
-        "location": "Bangalore",
+        "location": "Hyderabad",
         "approxPrice": 300,
         "imageUrl": "./assets/images/sitara.jpg",
         "isVegRest": false,
@@ -82,13 +162,294 @@
                 "name": "Chicken Biryani",
                 "description": "Biryani",
                 "price": 275,
-                "imageUrl": "",
+                "imageUrl": "./assets/images/paradiseChkBry.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 3,
+                "name": "Tandoori Roti",
+                "description": "Roti",
+                "price": 40,
+                "imageUrl": "./assets/images/roti.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 3,
+                "id": 3,
+                "name": "curry",
+                "description": "curry",
+                "price": 190,
+                "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 4,
+                "id": 3,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 270,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
                 "bestSeller": true,
                 "type": "NV"
             }
         ]
     },
     {   "id": 4,
+        "name": "Biryanis-and-more",
+        "rating": 4.2,
+        "location": "Hyderabad",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/biryanisAndMore.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 4,
+                "name": "Prawn Biryani",
+                "description": "Prawn Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Prawn Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 4,
+                "name": "Tandoori Chicken",
+                "description": "Tandoori Chicken",
+                "price": 279,
+                "imageUrl": "./assets/images/Tandoori Chicken.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 3,
+                "id": 4,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 279,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 4,
+                "id": 4,
+                "name": "Veg Biryani",
+                "description": "Veg Biryani",
+                "price": 279,
+                "imageUrl": "./assets/images/Veg Biryani.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Paradise",
+        "rating": 4.2,
+        "location": "Bangalore",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/paradise.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"20",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 5,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "./assets/images/paradiseChkBry.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 5,
+                "name": "Tandoori Roti",
+                "description": "Roti",
+                "price": 40,
+                "imageUrl": "./assets/images/roti.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 3,
+                "id": 5,
+                "name": "curry",
+                "description": "curry",
+                "price": 190,
+                "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 4,
+                "id": 5,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 270,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 5,
+                "id": 5,
+                "name": "Prawn Biryani",
+                "description": "Prawn Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Prawn Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 6,
+                "id": 5,
+                "name": "Tandoori Chicken",
+                "description": "Tandoori Chicken",
+                "price": 279,
+                "imageUrl": "./assets/images/Tandoori Chicken.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 7,
+                "id": 5,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 279,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 8,
+                "id": 5,
+                "name": "Veg Biryani",
+                "description": "Veg Biryani",
+                "price": 279,
+                "imageUrl": "./assets/images/Veg Biryani.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Tabla",
+        "rating": 4.1,
+        "location": "Bangalore",
+        "approxPrice": 350,
+        "imageUrl": "./assets/images/tabla.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 6,
+                "name": "Chicken Biryani",
+                "description": "Chicken Biryani",
+                "price": 250,
+                "imageUrl": "./assets/images/T Chicken Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 6,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 3,
+                "id": 6,
+                "name": "Veg Meals",
+                "description": "Veg Meals",
+                "price": 150,
+                "imageUrl": "./assets/images/Veg Meals.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 4,
+                "id": 6,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 200,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Sitara",
+        "rating": 4.2,
+        "location": "Bangalore",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/sitara.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 7,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "./assets/images/paradiseChkBry.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 7,
+                "name": "Tandoori Roti",
+                "description": "Roti",
+                "price": 40,
+                "imageUrl": "./assets/images/roti.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 3,
+                "id": 7,
+                "name": "curry",
+                "description": "curry",
+                "price": 190,
+                "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 4,
+                "id": 7,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 270,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {   "id": 8,
         "name": "Biryanis-and-more",
         "rating": 4.2,
         "location": "Bangalore",
@@ -100,82 +461,545 @@
         "items":[
             {
                 "itemId": 1,
-                "id": 4,
+                "id": 8,
+                "name": "Prawn Biryani",
+                "description": "Prawn Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Prawn Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 8,
+                "name": "Tandoori Chicken",
+                "description": "Tandoori Chicken",
+                "price": 279,
+                "imageUrl": "./assets/images/Tandoori Chicken.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 3,
+                "id": 8,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 279,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 4,
+                "id": 8,
+                "name": "Veg Biryani",
+                "description": "Veg Biryani",
+                "price": 279,
+                "imageUrl": "./assets/images/Veg Biryani.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            }
+        ]
+    },
+	{
+        "id": 9,
+        "name": "Paradise",
+        "rating": 4.2,
+        "location": "Mumbai",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/paradise.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"20",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 9,
                 "name": "Chicken Biryani",
                 "description": "Biryani",
                 "price": 275,
-                "imageUrl": "",
+                "imageUrl": "./assets/images/paradiseChkBry.jpg",
                 "bestSeller": true,
                 "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 9,
+                "name": "Tandoori Roti",
+                "description": "Roti",
+                "price": 40,
+                "imageUrl": "./assets/images/roti.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 3,
+                "id": 9,
+                "name": "curry",
+                "description": "curry",
+                "price": 190,
+                "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 4,
+                "id": 9,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 270,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 5,
+                "id": 9,
+                "name": "Prawn Biryani",
+                "description": "Prawn Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Prawn Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 6,
+                "id": 9,
+                "name": "Tandoori Chicken",
+                "description": "Tandoori Chicken",
+                "price": 279,
+                "imageUrl": "./assets/images/Tandoori Chicken.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 7,
+                "id": 9,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 279,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 8,
+                "id": 9,
+                "name": "Veg Biryani",
+                "description": "Veg Biryani",
+                "price": 279,
+                "imageUrl": "./assets/images/Veg Biryani.jpg",
+                "bestSeller": true,
+                "type": "Veg"
             }
         ]
     },
     {
-        "id": 5,
-        "name": "Swagath",
-        "rating": 4.2,
+        "id": 10,
+        "name": "Tabla",
+        "rating": 4.1,
         "location": "Mumbai",
-        "approxPrice": 300,
-        "imageUrl": "./assets/images/swagath.jpg",
+        "approxPrice": 350,
+        "imageUrl": "./assets/images/tabla.jpg",
         "isVegRest": false,
         "isOffersAvl": false,
         "deliveryTime":"25",
         "items":[
             {
                 "itemId": 1,
-                "id": 5,
+                "id": 10,
                 "name": "Chicken Biryani",
-                "description": "Biryani",
-                "price": 275,
-                "imageUrl": "",
+                "description": "Chicken Biryani",
+                "price": 250,
+                "imageUrl": "./assets/images/T Chicken Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 10,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 3,
+                "id": 10,
+                "name": "Veg Meals",
+                "description": "Veg Meals",
+                "price": 150,
+                "imageUrl": "./assets/images/Veg Meals.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 4,
+                "id": 10,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 200,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
                 "bestSeller": true,
                 "type": "NV"
             }
         ]
     },
     {
-        "id": 6,
-        "name": "Sagar",
-        "rating": 3.9,
-        "location": "Bangalore",
-        "approxPrice": 250,
-        "imageUrl": "./assets/images/swagath.jpg",
-        "isVegRest": true,
-        "isOffersAvl": true,
+        "id": 11,
+        "name": "Sitara",
+        "rating": 4.2,
+        "location": "Mumbai",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/sitara.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 11,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "./assets/images/paradiseChkBry.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 11,
+                "name": "Tandoori Roti",
+                "description": "Roti",
+                "price": 40,
+                "imageUrl": "./assets/images/roti.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 3,
+                "id": 11,
+                "name": "curry",
+                "description": "curry",
+                "price": 190,
+                "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 4,
+                "id": 11,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 270,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {   "id": 12,
+        "name": "Biryanis-and-more",
+        "rating": 4.2,
+        "location": "Mumbai",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/biryanisAndMore.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 12,
+                "name": "Prawn Biryani",
+                "description": "Prawn Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Prawn Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 12,
+                "name": "Tandoori Chicken",
+                "description": "Tandoori Chicken",
+                "price": 279,
+                "imageUrl": "./assets/images/Tandoori Chicken.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 3,
+                "id": 12,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 279,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 4,
+                "id": 12,
+                "name": "Veg Biryani",
+                "description": "Veg Biryani",
+                "price": 279,
+                "imageUrl": "./assets/images/Veg Biryani.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            }
+        ]
+    },
+	{
+        "id": 13,
+        "name": "Paradise",
+        "rating": 4.2,
+        "location": "Chennai",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/paradise.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
         "deliveryTime":"20",
         "items":[
             {
                 "itemId": 1,
-                "id": 6,
-                "name": "Roti's",
-                "description": "Veg",
+                "id": 13,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "./assets/images/paradiseChkBry.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 13,
+                "name": "Tandoori Roti",
+                "description": "Roti",
+                "price": 40,
+                "imageUrl": "./assets/images/roti.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 3,
+                "id": 13,
+                "name": "curry",
+                "description": "curry",
+                "price": 190,
+                "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 4,
+                "id": 13,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 270,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 5,
+                "id": 13,
+                "name": "Prawn Biryani",
+                "description": "Prawn Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Prawn Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 6,
+                "id": 13,
+                "name": "Tandoori Chicken",
+                "description": "Tandoori Chicken",
+                "price": 279,
+                "imageUrl": "./assets/images/Tandoori Chicken.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 7,
+                "id": 13,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 279,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 8,
+                "id": 13,
+                "name": "Veg Biryani",
+                "description": "Veg Biryani",
+                "price": 279,
+                "imageUrl": "./assets/images/Veg Biryani.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Tabla",
+        "rating": 4.1,
+        "location": "Chennai",
+        "approxPrice": 350,
+        "imageUrl": "./assets/images/tabla.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 14,
+                "name": "Chicken Biryani",
+                "description": "Chicken Biryani",
+                "price": 250,
+                "imageUrl": "./assets/images/T Chicken Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 14,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 3,
+                "id": 14,
+                "name": "Veg Meals",
+                "description": "Veg Meals",
                 "price": 150,
-                "imageUrl": "",
+                "imageUrl": "./assets/images/Veg Meals.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 4,
+                "id": 14,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 200,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
                 "bestSeller": true,
                 "type": "NV"
             }
         ]
     },
     {
-        "id": 7,
-        "name": "Navabharat",
-        "rating": 3.9,
-        "location": "Mumbai",
-        "approxPrice": 250,
-        "imageUrl": "./assets/images/swagath.jpg",
-        "isVegRest": true,
-        "isOffersAvl": true,
-        "deliveryTime":"30",
+        "id": 15,
+        "name": "Sitara",
+        "rating": 4.2,
+        "location": "Chennai",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/sitara.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
         "items":[
             {
                 "itemId": 1,
-                "id": 7,
-                "name": "Roti's",
-                "description": "Veg",
-                "price": 150,
-                "imageUrl": "",
+                "id": 15,
+                "name": "Chicken Biryani",
+                "description": "Biryani",
+                "price": 275,
+                "imageUrl": "./assets/images/paradiseChkBry.jpg",
                 "bestSeller": true,
                 "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 15,
+                "name": "Tandoori Roti",
+                "description": "Roti",
+                "price": 40,
+                "imageUrl": "./assets/images/roti.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 3,
+                "id": 15,
+                "name": "curry",
+                "description": "curry",
+                "price": 190,
+                "imageUrl": "./assets/images/curry.jpg",
+                "bestSeller": true,
+                "type": "Veg"
+            },
+            {
+                "itemId": 4,
+                "id": 15,
+                "name": "Mutton Biryani",
+                "description": "Mutton Biryani",
+                "price": 270,
+                "imageUrl": "./assets/images/Mutton Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            }
+        ]
+    },
+    {   "id": 16,
+        "name": "Biryanis-and-more",
+        "rating": 4.2,
+        "location": "Chennai",
+        "approxPrice": 300,
+        "imageUrl": "./assets/images/biryanisAndMore.jpg",
+        "isVegRest": false,
+        "isOffersAvl": false,
+        "deliveryTime":"25",
+        "items":[
+            {
+                "itemId": 1,
+                "id": 16,
+                "name": "Prawn Biryani",
+                "description": "Prawn Biryani",
+                "price": 300,
+                "imageUrl": "./assets/images/Prawn Biryani.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 2,
+                "id": 16,
+                "name": "Tandoori Chicken",
+                "description": "Tandoori Chicken",
+                "price": 279,
+                "imageUrl": "./assets/images/Tandoori Chicken.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 3,
+                "id": 16,
+                "name": "Kalmi Kebab",
+                "description": "Kalmi Kebab",
+                "price": 279,
+                "imageUrl": "./assets/images/Kalmi Kebab.jpg",
+                "bestSeller": true,
+                "type": "NV"
+            },
+            {
+                "itemId": 4,
+                "id": 16,
+                "name": "Veg Biryani",
+                "description": "Veg Biryani",
+                "price": 279,
+                "imageUrl": "./assets/images/Veg Biryani.jpg",
+                "bestSeller": true,
+                "type": "Veg"
             }
         ]
     }
