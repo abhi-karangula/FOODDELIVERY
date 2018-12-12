@@ -19,11 +19,13 @@
           [style.margin.px]='imageMargin'>
       </div>
       <div class="pull-left">
-        <h1>{{restaurant.name}}</h1>
+        <h2>{{restaurant.name}}</h2>
         <span>{{restaurant.location}}</span><br />
+        <p><span>{{restaurant.description}}</span></p>
         <p style="margin-top: 12px;">
-          <span class="wY0my _9uwBC icon-start _537e4">* {{restaurant.rating}}</span>&nbsp;&nbsp;
-          <span>{{restaurant.description}}</span>
+          <span class="wY0my _9uwBC icon-start _537e4"><b>* {{restaurant.rating}}</b></span>&nbsp;&nbsp;
+          <span><b>{{restaurant.deliveryTime}}</b> Mins Delivery Time</span>&nbsp;&nbsp;
+          <span><b>{{restaurant.approxPrice | currency: 'INR': 'symbol': '1.0'}}</b> Cost For Two</span>
         </p>
       </div>
     </div>

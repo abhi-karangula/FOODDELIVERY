@@ -37,9 +37,9 @@
                         <a [routerLink]="['/items',restaurant.name,restaurant.location]">{{restaurant.name}}</a>
                     </h4>
                     <p>
-                        <span class="wY0my _9uwBC icon-start _537e4">* {{restaurant.rating}}</span>&nbsp;&nbsp;
-                        <span>{{restaurant.deliveryTime}}</span>&nbsp;&nbsp;
-                        <span>{{restaurant.approxPrice | currency: 'INR': 'symbol': '1.0'}}</span>
+                        <span class="wY0my _9uwBC icon-start _537e4"><b>* {{restaurant.rating}}</b></span>&nbsp;&nbsp;
+                        <span><b>{{restaurant.deliveryTime}}</b> mins</span>&nbsp;&nbsp;
+                        <span><b>{{restaurant.approxPrice | currency: 'INR': 'symbol': '1.0'}}</b> Cost For Two</span>
                     </p>
                 </div>
             </div>
