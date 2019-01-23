@@ -2,7 +2,7 @@
  * @author: Avinash Karangula
  */
 
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy, OnChanges, AfterViewInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ItemDetailsService } from './item-details.service';
 import { IRestaurant } from '../restaurant/restaurant';
@@ -12,9 +12,9 @@ import { IRestaurant } from '../restaurant/restaurant';
   templateUrl: './item-details.component.html',
   styleUrls: ['./item-details.component.css']
 })
-export class ItemDetailsComponent implements OnInit {
+export class ItemDetailsComponent implements OnInit,OnDestroy,OnChanges,AfterViewInit {
 
-  constructor(private route: ActivatedRoute, private router: Router, private itemDetailsService: ItemDetailsService) { }
+  constructor(private route: ActivatedRoute, private router: Router, private itemDetailsService: ItemDetailsService) {}
 
   errorMessage: string;
   restaurant: IRestaurant;
@@ -22,7 +22,18 @@ export class ItemDetailsComponent implements OnInit {
   imageMargin: number = 20;
   cartItems: any[] = [];
   subTotal: number = 0;
+
+  ngAfterViewInit(){
+    alert('viewinit');
+  }
+  ngOnChanges(){
+    alert('onchanges');
+  }
+  ngOnDestroy(){
+    alert('onDestroy');
+  }
   ngOnInit() {
+    alert('oninit');
     this.getRestaurantItemsList();
   }
 
